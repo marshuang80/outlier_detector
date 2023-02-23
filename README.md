@@ -16,7 +16,7 @@ Run the detector using:
 python src/main.py --csv_path <path to csv> --col <column name for data>
 ```
 
-For more argument help: 
+For more argument: 
 ```
 python src/main.py --help 
 ```
