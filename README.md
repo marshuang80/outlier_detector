@@ -23,7 +23,7 @@ python src/main.py --help
 
 ## Development
 ### Adding more detectors
-All new detectors should live in **./src/outlider_detectors.py** as a function. The function will need to take in *df* and *col* as the first two arguments for input dataframe and column name. All other arguments must specify dtype and provide a default value. This will also automatic parsing of function params to argparse arguments. 
+All new detectors should live in **./src/outlider_detectors.py** as a function. The function will need to take in *df* and *col* as the first two arguments for input dataframe and column name. All other arguments must specify dtype and provide a default value. This will help automatic parsing of function params to argparse arguments. 
 
 Newly added detectors will also need to be specified in outlier_detectors.__all__. This will allow users to choose detectors using input argument.  
 
