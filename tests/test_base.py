@@ -1,4 +1,4 @@
-"""testcases for rolling median"""
+"""Base unittest class"""
 
 import unittest
 import pandas as pd
